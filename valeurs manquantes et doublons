@@ -1,0 +1,6 @@
+# VÉRIFICATION DES VALEUS MANQUANTES
+df.isnull().sum()
+
+# SUPPRESSION DES DOUBLONS
+df = df.drop_duplicates()
+df
